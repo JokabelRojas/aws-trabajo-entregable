@@ -16,11 +16,12 @@
     "lint:eslint": "eslint . --fix --cache",
     "lint": "run-s lint:*",
     "format": "prettier --write src/",
-    "supabase:init":"supabase init",
-    "supabase:login":"supabase login",
-    "supabase:link":"supabase link --project-ref mdcqbdxyqelenmapeyua",
+    "supabase:init": "supabase init",
+    "supabase:login": "supabase login",
+    "supabase:link": "supabase link --project-ref ywvmwabfhimghehyqaxr",
     "db:migrate:new": "supabase migration new carreras",
-    "db:reset":"supabase db reset"
+    "db:reset": "supabase db reset --linked",
+    "db:seed": "node --env-file=.env database/seed.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.76.1",
@@ -30,6 +31,7 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@faker-js/faker": "^10.1.0",
     "@prettier/plugin-oxc": "^0.0.4",
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^22.18.11",
