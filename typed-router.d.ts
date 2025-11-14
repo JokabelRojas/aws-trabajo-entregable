@@ -37,9 +37,72 @@ declare module 'vue-router/auto-routes' {
       { catchAll: ParamValue<false> },
       | never
     >,
+    '/academic_years/': RouteRecordInfo<
+      '/academic_years/',
+      '/academic_years',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/classrooms/': RouteRecordInfo<
+      '/classrooms/',
+      '/classrooms',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/course_offerings/': RouteRecordInfo<
+      '/course_offerings/',
+      '/course_offerings',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/courses/': RouteRecordInfo<
+      '/courses/',
+      '/courses',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/enrrollments/': RouteRecordInfo<
       '/enrrollments/',
       '/enrrollments',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/enrrollments/new': RouteRecordInfo<
+      '/enrrollments/new',
+      '/enrrollments/new',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/enrrollments/reprint': RouteRecordInfo<
+      '/enrrollments/reprint',
+      '/enrrollments/reprint',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/schedules/': RouteRecordInfo<
+      '/schedules/',
+      '/schedules',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/students/': RouteRecordInfo<
+      '/students/',
+      '/students',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/teachers/': RouteRecordInfo<
+      '/teachers/',
+      '/teachers',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -69,9 +132,63 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'src/pages/academic_years/index.vue': {
+      routes:
+        | '/academic_years/'
+      views:
+        | never
+    }
+    'src/pages/classrooms/index.vue': {
+      routes:
+        | '/classrooms/'
+      views:
+        | never
+    }
+    'src/pages/course_offerings/index.vue': {
+      routes:
+        | '/course_offerings/'
+      views:
+        | never
+    }
+    'src/pages/courses/index.vue': {
+      routes:
+        | '/courses/'
+      views:
+        | never
+    }
     'src/pages/enrrollments/index.vue': {
       routes:
         | '/enrrollments/'
+      views:
+        | never
+    }
+    'src/pages/enrrollments/new.vue': {
+      routes:
+        | '/enrrollments/new'
+      views:
+        | never
+    }
+    'src/pages/enrrollments/reprint.vue': {
+      routes:
+        | '/enrrollments/reprint'
+      views:
+        | never
+    }
+    'src/pages/schedules/index.vue': {
+      routes:
+        | '/schedules/'
+      views:
+        | never
+    }
+    'src/pages/students/index.vue': {
+      routes:
+        | '/students/'
+      views:
+        | never
+    }
+    'src/pages/teachers/index.vue': {
+      routes:
+        | '/teachers/'
       views:
         | never
     }
